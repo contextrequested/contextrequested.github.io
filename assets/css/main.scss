@@ -1,0 +1,27 @@
+---
+# Only front matter needed for Jekyll to process SCSS
+---
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+a {
+  color: #00d4aa;
+  text-decoration: none;
+}
+a:hover,
+a:visited:hover {
+  color: #53595e;
+  text-decoration: underline;
+}
+a:visited {
+  color: #00886d;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(180deg, #f2f2f2, #ffffff);
+}
+
+#site-nav {
+	background: #f2f2f2
+}
