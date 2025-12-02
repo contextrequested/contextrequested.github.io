@@ -1,7 +1,7 @@
 main:
-  - title: "About"
+  - title: "ABOUT"
     url: /about/
-  - title: "Organizational Chart"
+  - title: "ORGANIZATIONAL CHART"
     url: /org-chart/
-  - title: "Publications"
+  - title: "PUBLICATIONS"
     url: /publications/
