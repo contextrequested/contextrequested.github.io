@@ -3,8 +3,22 @@ layout: single
 title: About
 author_profile: true
 permalink: /about/
-toc: true
 ---
+
+The Department of Contextual Studies (DoCS) was founded in response to a simple, yet world-changing observation:
+
+The modern world is full of things that nobody understands, and yet everyone simply accepts them.
+
+Where other institutions strive for clarity, we pursue what truly matters: context—especially when it's unnecessary.
+
+Our work begins where meaning ends, and it ends where nobody asks why we're doing it at all.
+
+## Our mission
+
+The DoCS is dedicated to the systematic overinterpretation of everyday phenomena.
+Whether a tangled charging cable, a WhatsApp voice message at 03:12, or an e-scooter in existential imbalance:
+
+We don’t merely observe – we contextualize until the context collapses under its own weight.
 
 ## FAQ
 
