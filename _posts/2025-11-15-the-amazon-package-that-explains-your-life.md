@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "The Amazon package that explains your life"
+title: "The Amazon package that explains your life"
 author_profile: true
-date:   2025-11-15 19:00:00 +0100
+date: 2025-11-15 19:00:00 +0100
 categories: logistics
 ---
 
