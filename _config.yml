@@ -137,7 +137,7 @@ author:
     - label: "eliaspending"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/eliaspending"
-    - label: "@contextrequested"
+    - label: "contextrequested"
       icon: "fab fa-fw fa-youtube-square"
       url: "https://www.youtube.com/@ContextRequested"
 

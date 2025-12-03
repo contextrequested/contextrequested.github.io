@@ -26,11 +26,13 @@ body {
 	background: #f2f2f2
 }
 
-.visible-links,
-h1, h2, h3, h4, h5, h6,
-dt,
-p {
+.visible-links {
 	font-weight: lighter !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+dt {
+	font-weight: normal !important;
 }
 
 .site-title {
@@ -45,10 +47,13 @@ p {
     font-size: 0.9em !important;
 }
 
-p {
+p,
+li,
+dd {
 	font-size: 0.9em !important;
 }
 
 .author__bio {
+    color: black !important;
 	font-size: 0.8em !important;
 }
