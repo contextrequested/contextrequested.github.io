@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Germany's modern ladder cult"
+lang:	en
 author_profile: true
 date:   2025-11-18 19:00:00 +0100
 categories: tools

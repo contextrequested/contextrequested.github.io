@@ -234,6 +234,14 @@ sass:
 permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Collections
+collections:
+  en_posts:
+    output: true
+    permalink: /en/:categories/:title/
+  de_posts:
+    output: true
+    permalink: /de/:categories/:title/
 
 # Pagination with jekyll-paginate
 paginate: 5 # amount of posts to show
@@ -329,3 +337,15 @@ defaults:
       comments: # true
       share: true
       related: # true
+  # en
+  - scope:
+      path: "en"
+      type: "pages"
+    values:
+      lang: en
+  # de
+  - scope:
+      path: "de"
+      type: "pages"
+    values:
+      lang: de

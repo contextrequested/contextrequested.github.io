@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Windows update at 5:01 PM – The betrayal"
+lang:	en
 author_profile: true
 date:   2025-11-23 19:00:00 +0100
 categories: software

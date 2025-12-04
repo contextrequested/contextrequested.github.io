@@ -39,6 +39,7 @@ dt {
     color: black !important;
     font-size: 0.9em !important;
 	font-weight: normal !important;
+    line-height: 1.2;
 	margin-bottom: 5px !important;
 }
 
@@ -53,7 +54,16 @@ dd {
 	font-size: 0.9em !important;
 }
 
+dd {
+  color: #585f65;
+  font-style: italic;
+}
+
 .author__bio {
     color: black !important;
 	font-size: 0.8em !important;
+}
+
+.opacity-33 {
+  opacity: 0.33;
 }

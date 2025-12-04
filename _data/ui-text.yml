@@ -50,6 +50,8 @@ en: &DEFAULT_EN
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
+# custom values
+  author_bio                 : "Director of the Department for Contextual Studies"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -88,7 +90,7 @@ de: &DEFAULT_DE
   related_label              : "Ihnen gefällt vielleicht auch"
   follow_label               : "Folgen:"
   feed_label                 : "Feed"
-  powered_by                 : "Möglich durch"
+  powered_by                 : "Powered by"
   website_label              : "Webseite"
   email_label                : "E-Mail"
   recent_posts               : "Aktuelle Beiträge"
@@ -108,6 +110,8 @@ de: &DEFAULT_DE
   search_placeholder_text    : "Suchbegriff eingeben..."
   search_algolia_no_results  :
   results_found              : "Ergebnis(se) gefunden"
+# custom values
+  author_bio                 : "Direktor des Department für kontextuale Studien"
 de-DE:
   <<: *DEFAULT_DE
 de-AT:

@@ -1,7 +1,15 @@
-main:
+en:
   - title: "ABOUT"
-    url: /about/
+    url: /en/about/
   - title: "ORGANIZATIONAL CHART"
-    url: /org-chart/
+    url: /en/org-chart/
   - title: "PUBLICATIONS"
-    url: /publications/
+    url: /en/publications/
+
+de:
+  - title: "ÜBER UNS"
+    url: /de/ueber-uns/
+  - title: "ORGANIGRAMM"
+    url: /de/organigramm/
+  - title: "PUBLIKATIONEN"
+    url: /de/publikationen/

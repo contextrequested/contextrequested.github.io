@@ -1,8 +1,9 @@
 ---
 layout: single
 title: Organizational Chart
+lang: en
 author_profile: true
-permalink: /org-chart/
+permalink: /en/org-chart/
 ---
 
 ## Management Level

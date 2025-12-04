@@ -1,8 +1,9 @@
 ---
 layout: single
 title: Publications
+lang: en
 author_profile: true
-permalink: /publications/
+permalink: /en/publications/
 ---
 
 ## Monographs

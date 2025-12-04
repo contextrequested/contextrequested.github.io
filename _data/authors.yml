@@ -1,0 +1,17 @@
+Elias Pending:
+  name        : "Dr. Elias Pending"
+  bio         : "Director of the Department for Contextual Studies"
+  avatar      : "/assets/images/eliaspending.png"
+  links:
+    - label: "61583808323895"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/profile.php?id=61583808323895"
+    - label: "eliaspending"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/eliaspending/"
+    - label: "eliaspending"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/eliaspending"
+    - label: "contextrequested"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "https://www.youtube.com/@ContextRequested"
