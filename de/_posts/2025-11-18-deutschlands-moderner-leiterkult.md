@@ -4,7 +4,7 @@ title:  "Deutschlands moderner Leiterkult"
 lang:	de
 author_profile: true
 date:   2025-11-18 19:00:00 +0100
-categories: tools
+categories: de-werkzeuge
 ---
 
 In dieser Folge widmen wir uns einem Objekt, das so unscheinbar wirkt, dass man ihm seine tiefgreifende Tragweite kaum zutrauen würde: der Leiter. Zwei Holme, ein paar Sprossen – ein Werkzeug, das die Menschheit seit Jahrtausenden begleitet und dennoch im modernen Deutschland eine erstaunliche, beinahe mythische Wandlung erfahren hat.

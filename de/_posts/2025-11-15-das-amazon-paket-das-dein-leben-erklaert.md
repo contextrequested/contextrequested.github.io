@@ -4,7 +4,7 @@ title: "Das Amazon-Paket, das dein Leben erklärt"
 lang:	de
 author_profile: true
 date: 2025-11-15 19:00:00 +0100
-categories: logistics
+categories: de-logistik
 ---
 
 In dieser ersten Folge richtet Dr. Elias Pending vom Institut für Kontextstudien sein akademisches Scheinwerferlicht auf ein modernes Relikt von erstaunlicher psychologischer Dichte:

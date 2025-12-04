@@ -4,7 +4,7 @@ title: "The Amazon package that explains your life"
 lang:	en
 author_profile: true
 date: 2025-11-15 19:00:00 +0100
-categories: logistics
+categories: en-logistics
 ---
 
 In this inaugural investigation, Dr. Elias Pending of the Department of Contextual Studies turns his academic spotlight onto a modern relic of astonishing psychological density:

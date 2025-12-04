@@ -4,7 +4,7 @@ title:  "Windows update at 5:01 PM – The betrayal"
 lang:	en
 author_profile: true
 date:   2025-11-23 19:00:00 +0100
-categories: software
+categories: en-software
 ---
 
 In this third case study, the institute once again addresses a phenomenon everyone knows but no one understands: the Windows update at precisely 5:01 p.m. – a time no one on Earth has ever voluntarily chosen.

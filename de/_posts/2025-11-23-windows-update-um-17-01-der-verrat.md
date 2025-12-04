@@ -4,7 +4,7 @@ title:  "Windows-Update um 17:01 – Der Verrat"
 lang:	de
 author_profile: true
 date:   2025-11-23 19:00:00 +0100
-categories: software
+categories: de-software
 ---
 
 In dieser dritten Fallstudie widmet sich das Institut erneut einem Phänomen, das jeder kennt, aber niemand versteht: dem Windows-Update um exakt 17:01 Uhr – jenem Zeitpunkt, den kein Mensch auf dieser Erde jemals freiwillig gewählt hat.

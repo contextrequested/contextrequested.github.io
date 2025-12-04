@@ -4,7 +4,7 @@ title:  "Germany's modern ladder cult"
 lang:	en
 author_profile: true
 date:   2025-11-18 19:00:00 +0100
-categories: tools
+categories: en-tools
 ---
 
 In this episode, we turn our attention to an object so unassuming that one would hardly suspect its profound significance: the ladder. Two stiles, a few rungs – a tool that has accompanied humankind for millennia, yet has undergone an astonishing, almost mythical transformation in modern Germany.
