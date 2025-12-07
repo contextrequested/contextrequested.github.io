@@ -12,6 +12,13 @@
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
         </a>
         <ul class="visible-links">
+			<li class="masthead__menu-item opacity-33">
+			  {% if page.lang == "en" %}
+				<a href="/de"><img src="/assets/images/flag-de.png" alt="Deutsch" width="50" height="26" /></a>
+			  {% elsif page.lang == "de" %}
+				<a href="/en"><img src="/assets/images/flag-en.png" alt="English" width="50" height="26" /></a>
+			  {% endif %}
+			</li>
           {%- for link in site.data.navigation.[page.lang] -%}
             <li class="masthead__menu-item">
               <a
@@ -22,13 +29,6 @@
             </li>
           {%- endfor -%}
         </ul>
-		<div class="opacity-33">
-		  {% if page.lang == "en" %}
-			<a href="/de"><img src="/assets/images/flag-de.png" alt="Deutsch" width="50" height="26" /></a>
-		  {% elsif page.lang == "de" %}
-			<a href="/en"><img src="/assets/images/flag-en.png" alt="English" width="50" height="26" /></a>
-		  {% endif %}
-		</div>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[page.lang].search_label | default: "Toggle search" }}</span>
