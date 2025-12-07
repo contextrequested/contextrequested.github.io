@@ -1,0 +1,2282 @@
+---
+layout: single
+title: Form A-7/14b
+lang: en
+author_profile: true
+permalink: /en/form-a-7-14-b/
+---
+
+<div id="form-from-hell">
+  <section>
+    <h2>Preliminary Invocation and Applicant Orientation Protocol</h2>
+
+    <p class="text-justify">
+      Welcome, esteemed finder, witness, or accidental discoverer of
+      contextually relevant phenomena. Before you stands Form A-7/14b, the
+      Department’s officially semi-sanctioned mechanism for reporting artefacts,
+      anomalies, and everyday occurrences whose significance is—at the
+      moment—unverified, unbelievable, or merely suspected by you.
+    </p>
+
+    <p class="text-justify">
+      As a participant in this administrative rite, you are about to enter a
+      three-phase labyrinth of procedural introspection and bureaucratic
+      self-revelation. Each section has been meticulously designed to assess not
+      only what you have found, but who you become while attempting to report
+      it.
+    </p>
+
+    <p class="text-justify">
+      Applicants are reminded that submitting this form does not guarantee
+      review, recognition, acknowledgement, or even visibility. Your submission
+      will, however, be archived indefinitely in the Vault of Pending
+      Interpretations, where it may one day be examined by a future intern with
+      a minor in Hermeneutic Risk Assessment.
+    </p>
+
+    <p class="text-justify">
+      Proceed, if you dare. And remember: Meaning is mandatory. Understanding is
+      optional.
+    </p>
+  </section>
+
+  <section>
+    <form id="general-info-form" novalidate>
+      <!-- Section A -->
+      <h3>
+        Section A: Applicant-related basic information for identity verification
+      </h3>
+
+      <p class="text-justify">
+        Here, you must document your existential coordinates with absolute
+        precision. The Department reminds you that incomplete fields may lead to
+        delays, recursive validation loops, or spontaneous ontological
+        dissolution.
+      </p>
+
+      <fieldset>
+        <legend class="uppercase">
+          Scope for Multi-Sequential Self-Designation Constructs
+        </legend>
+
+        <!-- First Name -->
+        <label for="firstName">First Name</label>
+        <input
+          tabindex="0"
+          type="text"
+          id="firstName"
+          name="firstName"
+          value="First Name"
+          style="color: grey"
+        />
+        <small id="firstNameError" style="color: green"></small>
+
+        <!-- First Name Vowels -->
+        <label for="firstNameVowels">First Name Vowels (reversed)</label>
+        <input
+          type="text"
+          id="firstNameVowels"
+          name="firstNameVowels"
+          placeholder="eauoi"
+          style="color: grey"
+        />
+        <small id="firstNameVowelsError" style="color: green"></small>
+
+        <!-- 2. Middle Name -->
+        <label for="middleName">Middle Name</label>
+        <input
+          tabindex="1"
+          type="text"
+          id="middleName"
+          name="middleName"
+          placeholder="Middle Name"
+          style="color: grey"
+        />
+        <small id="middleNameError" style="color: red"></small>
+        <div>
+          <div id="middleNameConfirm1" class="d-none">
+            <label
+              ><input type="checkbox" id="noMiddleNameConfirm1" /> I hereby
+              confirm that I do not have a middle name</label
+            >
+            <small id="middleNameConfirm1Error" style="color: red"></small>
+          </div>
+
+          <div id="middleNameConfirm2" class="d-none">
+            <label
+              ><input type="checkbox" id="noMiddleNameConfirm2" /> Not even a
+              really funny one</label
+            >
+            <small id="middleNameConfirm2Error" style="color: red"></small>
+          </div>
+
+          <div id="middleNameConfirm3" class="d-none">
+            <label
+              ><input type="checkbox" id="noMiddleNameConfirm3" /> Yes, I am
+              absolutely sure</label
+            >
+            <small id="middleNameConfirm3Error" style="color: red"></small>
+          </div>
+
+          <div id="middleNameConfirm4" class="d-none">
+            <label
+              ><input type="checkbox" id="noMiddleNameConfirm4" /> Seriously, I
+              do _not_ have a MIDDLE NAME</label
+            >
+            <small id="middleNameConfirm4Error" style="color: red"></small>
+          </div>
+        </div>
+
+        <!-- Last Name -->
+        <label for="last_Name">Last Name</label>
+        <input
+          tabindex="-1"
+          type="text"
+          id="lastName"
+          name="lastName"
+          minlength="4"
+          maxlength="20"
+          placeholder="Last Name"
+          style="color: grey"
+        />
+        <small id="lastNameError" style="color: green"></small>
+
+        <!-- Last Name Leet -->
+        <label for="lastNameLeet" style="margin-top: 50px"
+          >Last Name (Leetspeak)</label
+        >
+        <input
+          tabindex="2"
+          type="text"
+          id="lastNameLeet"
+          name="lastNameLeet"
+          minlength="4"
+          maxlength="20"
+          value="l457 n4m3"
+          style="color: grey"
+        />
+        <small id="lastNameLeetError" style="color: green"></small>
+      </fieldset>
+
+      <fieldset>
+        <legend class="uppercase">
+          Chronological first manifestation of the applicant in the space-time
+          continuum
+        </legend>
+
+        <!-- Date of Birth Month (Chinese calendar) -->
+        <label for="dobMonth">Date of Birth Month (Chinese calendar)</label>
+        <input
+          type="text"
+          id="dobMonth"
+          name="dobMonth"
+          value="Month"
+          style="color: grey"
+        />
+        <small id="dobMonthError" style="color: red"></small>
+
+        <!-- Date of Birth Day -->
+        <div style="margin-bottom: 10px">
+          <label for="dobDay">Date of Birth Day</label>
+          <input
+            tabindex="3"
+            type="number"
+            id="dobDay"
+            name="dobDay"
+            value="1"
+            style="color: grey"
+            readonly
+          />
+          <div id="buttons">
+            <button type="button" onclick="applyDobFunc('square')">x²</button>
+            <button type="button" onclick="applyDobFunc('cube')">x³</button>
+            <button type="button" onclick="applyDobFunc('sqrt')">
+              √ (floor)
+            </button>
+            <button type="button" onclick="applyDobFunc('log2')">
+              log₂ (floor)
+            </button>
+            <button type="button" onclick="applyDobFunc('factorial')">
+              n!
+            </button>
+            <button type="button" onclick="applyDobFunc('double')">×2</button>
+            <button type="button" onclick="applyDobFunc('halve')">
+              ÷2 (floor)
+            </button>
+            <button type="button" onclick="applyDobFunc('mod7')">mod 7</button>
+            <button type="button" onclick="applyDobFunc('reverseDigits')">
+              reverse digits
+            </button>
+            <button type="button" onclick="applyDobFunc('randomPrime')">
+              random prime ≤ 31
+            </button>
+          </div>
+          <small
+            id="dobDayError"
+            style="color: red; margin-bottom: 10px"
+          ></small>
+        </div>
+
+        <!-- Date of Birth Year (Roman letters) -->
+        <label for="dobYearRoman">Date of Birth Year (Roman letters)</label>
+        <input
+          type="text"
+          id="dobYearRoman"
+          name="dobYearRoman"
+          placeholder="MMXXV"
+          style="color: grey"
+        />
+        <small id="dobYearRomanError" style="color: green"></small>
+
+        <!-- Date of Birth Year (Arabic digits) -->
+        <label for="dobYearArabic">Date of Birth Year (Arabic digits)</label>
+        <input
+          tabindex="3"
+          type="text"
+          id="dobYearArabic"
+          name="dobYearArabic"
+          style="color: grey"
+        />
+        <small id="dobYearArabicError" style="color: green"></small>
+
+        <!-- Date of Birth Day Confirmation (Julian Day Number) -->
+        <label for="dobConfirm"
+          >Date of Birth Confirmation (Julian Day Number)</label
+        >
+        <input
+          tabindex="4"
+          type="text"
+          id="dobConfirm"
+          name="dobConfirm"
+          style="color: grey"
+        />
+        <small id="dobConfirmError" style="color: red"></small>
+      </fieldset>
+
+      <fieldset>
+        <legend class="uppercase">
+          Information on intersubjective contact in accordance with section
+          4.7.b
+        </legend>
+
+        <!-- City -->
+        <label for="email"
+          >City (just add or decrease the number of dropdowns as needed)</label
+        >
+        <button type="button" onclick="addCitySelect()">+</button>
+        <button type="button" onclick="delCitySelect()">-</button>
+        <div class="cityHell" id="cityHell"></div>
+
+        <!-- E-Mail address without tld -->
+        <label for="email"
+          >E-Mail address (without dot-ending for security purposes)</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="E-Mail address"
+          style="color: grey"
+        />
+        <small id="emailError" style="color: red"></small>
+
+        <!-- E-Mail address top level domain -->
+        <label for="emailTLD"
+          >E-Mail address top level domain (ordered by meta-formal parable of
+          individual naming artifacts)</label
+        >
+        <select id="emailTLD" name="emailTLD">
+          <option>.lt</option>
+          <option>.lv</option>
+          <option>.ee</option>
+          <option>.pt</option>
+          <option>.ie</option>
+          <option>.is</option>
+          <option>.hr</option>
+          <option>.si</option>
+          <option>.ba</option>
+          <option>.rs</option>
+          <option>.me</option>
+          <option>.mk</option>
+          <option>.al</option>
+          <option>.us</option>
+          <option>.ca</option>
+          <option>.mx</option>
+          <option>.br</option>
+          <option>.ar</option>
+          <option>.cl</option>
+          <option>.co</option>
+          <option>.ve</option>
+          <option>.uy</option>
+          <option>.py</option>
+          <option>.bo</option>
+          <option>.ec</option>
+          <option>.pe</option>
+          <option>.au</option>
+          <option>.nz</option>
+          <option>.cn</option>
+          <option>.jp</option>
+          <option>.kr</option>
+          <option>.hk</option>
+          <option>.tw</option>
+          <option>.sg</option>
+          <option>.my</option>
+          <option>.id</option>
+          <option>.ph</option>
+          <option>.th</option>
+          <option>.vn</option>
+          <option>.la</option>
+          <option>.kh</option>
+          <option>.mm</option>
+          <option>.bd</option>
+          <option>.lk</option>
+          <option>.np</option>
+          <option>.pk</option>
+          <option>.af</option>
+          <option>.ir</option>
+          <option>.iq</option>
+          <option>.sy</option>
+          <option>.jo</option>
+          <option>.il</option>
+          <option>.ps</option>
+          <option>.sa</option>
+          <option>.ae</option>
+          <option>.qa</option>
+          <option>.om</option>
+          <option>.ye</option>
+          <option>.kw</option>
+          <option>.bh</option>
+          <option>.dz</option>
+          <option>.ma</option>
+          <option>.tn</option>
+          <option>.ly</option>
+          <option>.eg</option>
+          <option>.sd</option>
+          <option>.ss</option>
+          <option>.et</option>
+          <option>.ke</option>
+          <option>.ug</option>
+          <option>.tz</option>
+          <option>.rw</option>
+          <option>.bi</option>
+          <option>.mz</option>
+          <option>.ao</option>
+          <option>.na</option>
+          <option>.bw</option>
+          <option>.zm</option>
+          <option>.zw</option>
+          <option>.za</option>
+          <option>.gh</option>
+          <option>.ng</option>
+          <option>.gm</option>
+          <option>.sn</option>
+          <option>.ml</option>
+          <option>.ne</option>
+          <option>.mr</option>
+          <option>.sl</option>
+          <option>.lr</option>
+          <option>.ci</option>
+          <option>.bf</option>
+          <option>.tg</option>
+          <option>.cm</option>
+          <option>.gq</option>
+          <option>.ga</option>
+          <option>.cg</option>
+          <option>.cd</option>
+          <option>.st</option>
+          <option>.cv</option>
+          <option>.gw</option>
+          <option>.bj</option>
+          <option>.sc</option>
+          <option>.mu</option>
+          <option>.mg</option>
+          <option>.km</option>
+          <option>.mv</option>
+          <option>.bn</option>
+          <option>.bt</option>
+          <option>.fj</option>
+          <option>.pg</option>
+          <option>.sb</option>
+          <option>.vu</option>
+          <option>.to</option>
+          <option>.ws</option>
+          <option>.tv</option>
+          <option>.tk</option>
+          <option>.io</option>
+          <option>.ai</option>
+          <option>.sh</option>
+          <option>.ac</option>
+          <option>.gg</option>
+          <option>.je</option>
+          <option>.im</option>
+          <option>.gi</option>
+          <option>.cy</option>
+          <option>.mt</option>
+          <option>.sm</option>
+          <option>.va</option>
+          <option>.mc</option>
+          <option>.li</option>
+          <option>.gl</option>
+          <option>.fo</option>
+          <option>.ax</option>
+          <option>.sx</option>
+          <option>.de</option>
+          <option>.uk</option>
+          <option>.fr</option>
+          <option>.es</option>
+          <option>.it</option>
+          <option>.nl</option>
+          <option>.be</option>
+          <option>.ch</option>
+          <option>.at</option>
+          <option>.pl</option>
+          <option>.cz</option>
+          <option>.sk</option>
+          <option>.hu</option>
+          <option>.ro</option>
+          <option>.bg</option>
+          <option>.gr</option>
+          <option>.se</option>
+          <option>.no</option>
+          <option>.fi</option>
+          <option>.dk</option>
+          <option>.ru</option>
+          <option>.ua</option>
+          <option>.by</option>
+          <option>.cw</option>
+          <option>.bq</option>
+          <option>.aw</option>
+          <option>.ht</option>
+          <option>.do</option>
+          <option>.jm</option>
+          <option>.tt</option>
+          <option>.bb</option>
+          <option>.gd</option>
+          <option>.lc</option>
+          <option>.vc</option>
+          <option>.dm</option>
+          <option>.kn</option>
+          <option>.ag</option>
+          <option>.bs</option>
+          <option>.ky</option>
+          <option>.bm</option>
+          <option>.vg</option>
+          <option>.vi</option>
+          <option>.pr</option>
+          <option>.gu</option>
+          <option>.mp</option>
+          <option>.pw</option>
+          <option>.nr</option>
+          <option>.ki</option>
+          <option>.mh</option>
+          <option>.fm</option>
+          <option>.nu</option>
+          <option>.cat</option>
+          <option>.com</option>
+          <option>.asia</option>
+          <option>.biz</option>
+          <option>.info</option>
+          <option>.name</option>
+          <option>.pro</option>
+          <option>.mobi</option>
+          <option>.jobs</option>
+          <option>.travel</option>
+          <option>.museum</option>
+          <option>.coop</option>
+          <option>.aero</option>
+          <option>.xyz</option>
+          <option>.edu</option>
+          <option>.top</option>
+          <option>.site</option>
+          <option>.online</option>
+          <option>.net</option>
+          <option>.tech</option>
+          <option>.store</option>
+          <option>.gov</option>
+          <option>.app</option>
+          <option>.dev</option>
+          <option>.design</option>
+          <option>.blog</option>
+          <option>.wiki</option>
+          <option>.space</option>
+          <option>.fun</option>
+          <option>.club</option>
+          <option>.love</option>
+          <option>.guru</option>
+          <option>.ninja</option>
+          <option>.photography</option>
+          <option>.int</option>
+          <option>.art</option>
+          <option>.game</option>
+          <option>.games</option>
+          <option>.video</option>
+          <option>.media</option>
+          <option>.press</option>
+          <option>.news</option>
+          <option>.today</option>
+          <option>.live</option>
+          <option>.world</option>
+          <option>.global</option>
+          <option>.group</option>
+          <option>.company</option>
+          <option>.solutions</option>
+          <option>.systems</option>
+          <option>.network</option>
+          <option>.digital</option>
+          <option>.cloud</option>
+          <option>.software</option>
+          <option>.health</option>
+          <option>.finance</option>
+          <option>.law</option>
+          <option>.legal</option>
+          <option>.science</option>
+          <option>.education</option>
+          <option>.university</option>
+          <option>.college</option>
+          <option>.school</option>
+          <option>.academy</option>
+          <option>.institute</option>
+          <option>.foundation</option>
+          <option>.charity</option>
+          <option>.church</option>
+          <option>.faith</option>
+          <option>.christmas</option>
+          <option>.holiday</option>
+          <option>.vacations</option>
+          <option>.wine</option>
+          <option>.beer</option>
+          <option>.pizza</option>
+          <option>.cafe</option>
+          <option>.restaurant</option>
+          <option>.bar</option>
+          <option>.org</option>
+          <option>.mil</option>
+          <option>.shop</option>
+          <option>.fashion</option>
+          <option>.shoes</option>
+          <option>.beauty</option>
+          <option>.makeup</option>
+          <option>.hair</option>
+          <option>.luxury</option>
+          <option>.watch</option>
+          <option>.jewelry</option>
+          <option>.toys</option>
+          <option>.baby</option>
+          <option>.pets</option>
+          <option>.dog</option>
+          <option>.cat</option>
+          <option>.horse</option>
+          <option>.farm</option>
+          <option>.garden</option>
+          <option>.flowers</option>
+          <option>.eco</option>
+          <option>.green</option>
+          <option>.energy</option>
+          <option>.solar</option>
+          <option>.earth</option>
+          <option>.nature</option>
+          <option>.bio</option>
+          <option>.organic</option>
+          <option>.fitness</option>
+          <option>.yoga</option>
+          <option>.run</option>
+          <option>.ski</option>
+          <option>.surf</option>
+          <option>.football</option>
+          <option>.soccer</option>
+          <option>.basketball</option>
+          <option>.tennis</option>
+          <option>.golf</option>
+          <option>.rugby</option>
+          <option>.cricket</option>
+          <option>.hockey</option>
+          <option>.baseball</option>
+          <option>.fishing</option>
+          <option>.cycling</option>
+          <option>.motorsport</option>
+          <option>.car</option>
+          <option>.cars</option>
+          <option>.bike</option>
+          <option>.motorcycles</option>
+          <option>.truck</option>
+          <option>.auto</option>
+          <option>.repair</option>
+          <option>.tools</option>
+          <option>.construction</option>
+          <option>.house</option>
+          <option>.home</option>
+          <option>.kitchen</option>
+          <option>.furniture</option>
+          <option>.lighting</option>
+          <option>.realestate</option>
+          <option>.property</option>
+          <option>.city</option>
+          <option>.town</option>
+          <option>.place</option>
+          <option>.country</option>
+        </select>
+
+        <!-- Method of future non-contact -->
+        <label>Preferred method of future non-contact:</label>
+        <div class="stack text-grey">
+          <div><input type="radio" name="contact" /> Fax</div>
+          <div>
+            <input type="radio" name="contact" /> Whispering into the void
+          </div>
+          <div>
+            <input type="radio" name="contact" /> Leaving notes under random
+            stones
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- Section B -->
+      <h3>Section B: Approval-relevant context parameters</h3>
+
+      <p class="text-justify">
+        In this segment, you will be asked questions whose relevance is
+        intentionally opaque. Your responses will be evaluated by the Chair of
+        Applied Contextualism using a proprietary algorithm known only as The
+        Grid of Probable Situations™, which has never produced the same output
+        twice.
+      </p>
+
+      <fieldset>
+        <legend class="uppercase">Internal Contextual Routing</legend>
+
+        <!-- Incorrect Department -->
+        <label>Select the <i>incorrect</i> department:</label>
+        <select id="dept">
+          <option value="">-- Please choose --</option>
+          <option value="correct">Correct Department (do NOT choose)</option>
+          <option>Archive of Unverified Claims of Meaning</option>
+          <option>Center for Digital Esotericism</option>
+          <option>Department of Everyday Metaphysics</option>
+          <option>Department of Contextual Risk Assessment</option>
+          <option>Institute for Bureaucratic Phenomenology</option>
+        </select>
+        <small id="deptError" style="color: green"></small>
+
+        <!-- Reason for mis-selection -->
+        <label>Reason for your mis-selection (choose one unrelated):</label>
+        <select>
+          <option>I misclicked</option>
+          <option>I refuse to answer on metaphysical grounds</option>
+          <option>Pending told me nothing matters</option>
+          <option>I was coerced by an E-Scooter</option>
+        </select>
+
+        <!-- Purpose -->
+        <label for="purpose">
+          Purpose of this request (please tick exactly one option, but select at
+          least three):
+        </label>
+        <div class="stack text-grey" style="padding-bottom: 8px">
+          <div>
+            <input type="checkbox" name="purpose" value="A" /> A –
+            Contextualization
+          </div>
+          <div>
+            <input type="checkbox" name="purpose" value="B" /> B –
+            Recontextualization
+          </div>
+          <div>
+            <input type="checkbox" name="purpose" value="C" /> C – Finding lack
+            of context
+          </div>
+          <div>
+            <input type="checkbox" name="purpose" value="D" /> D – Sonstiges
+            (Submit form D-12 later)
+          </div>
+        </div>
+        <small id="purposeError" style="color: red"></small>
+
+        <!-- Chronological Events -->
+        <label>
+          Please order the following events chronologically (drag & drop does
+          not work intentionally): </label
+        ><br />
+        <ul class="square-list text-grey">
+          <li>Opening the mailbox</li>
+          <li>The invention of the internet</li>
+          <li>
+            Your last valid appointment at the citizens' registration office
+          </li>
+          <li>The fall of Atlantis (optional)</li>
+        </ul>
+        <small style="color: red"
+          >Items must be in correct chronological order.</small
+        >
+
+        <!-- Explanation -->
+        <label for="explanation">
+          Explanation (minimum 400 words, but maximum 12 characters): </label
+        ><br />
+        <textarea id="explanation"></textarea>
+        <small id="explanationError" style="color: green"></small>
+      </fieldset>
+
+      <fieldset>
+        <legend class="uppercase">Technical data</legend>
+
+        <!-- Pictures -->
+        <label>Images (at least 4, only .doctxt format)</label>
+        <div class="text-grey" id="filedrop">
+          <div>Drag the files here or click to select.</div>
+          Accepted file types: .doctxt (proprietary), .myst (not supported)
+        </div>
+        <input type="file" id="files" multiple accept=".doctxt" />
+        <div class="text-grey">
+          If you upload other formats, we will convert them into stone
+          engravings.
+        </div>
+
+        <!-- Messwert Phasenkonstante -->
+        <label style="margin-top: 8px"
+          >Measured value: Phase constant (1 - 4,294,967,296)</label
+        >
+        <input type="range" id="phaseRange" min="0" max="4294967296" />
+        <small id="phaseRangeError" style="color: orange"></small>
+        <p class="text-grey" style="margin-top: 0px">
+          Value: <output id="phaseValue"></output>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend class="uppercase">Complex explanations</legend>
+
+        <!-- Find Explanation -->
+        <label
+          >Explanation of the discovery (a single, syntactically correct long
+          sentence construction)</label
+        >
+        <textarea
+          id="explainFind"
+          placeholder="Write a single long sentence..."
+          style="margin-bottom: 0"
+        ></textarea>
+        <div class="text-grey">
+          If you use periods or multiple sentences, the form converts them into
+          cryptograms.
+        </div>
+
+        <!-- References -->
+        <label style="margin-top: 8px"
+          >References (at least 3 DOI links or names of dead
+          philosophers)</label
+        >
+        <input
+          type="text"
+          id="refs"
+          placeholder="e.g. Plato, 1234/abcd, Nietzsche"
+        />
+        <div class="text-grey">If no DOI exists: Invent one.</div>
+      </fieldset>
+
+      <!-- Section C -->
+      <h3>Section C: Confirmations and self-commitments</h3>
+
+      <p class="text-justify">
+        Upon reaching this final stage, you will be invited to solemnly affirm
+        your willingness to comply with departmental expectations, including but
+        not limited to:
+      </p>
+      <ul class="no-li-icon-list">
+        <li>- contextual obedience,</li>
+        <li>- interpretative humility,</li>
+        <li>
+          - and the ritualistic acceptance that meaning is assigned, not
+          discovered.
+        </li>
+      </ul>
+
+      <fieldset>
+        <legend class="uppercase">Short Essay Question</legend>
+
+        <!-- Essay -->
+        <label>
+          Explain, in <i>exactly 47 words</i>, the philosophical significance of
+          misplacing your own charger:
+        </label>
+        <textarea id="essayText" rows="4" style="margin-bottom: 0"></textarea>
+        <small id="essayCounter" style="color: grey"></small>
+        <small id="essayError" style="color: green"></small>
+      </fieldset>
+
+      <fieldset>
+        <legend class="uppercase">Chaotische Validierung &amp; Captcha</legend>
+
+        <!-- Read and fully not understood -->
+        <label>
+          Please indicate if you have read the following and completely did not
+          understand:
+        </label>
+        <div class="stack text-grey">
+          <div>
+            <input type="checkbox" name="condition" /> I ignored the conditions
+            in their entirety.
+          </div>
+          <div>
+            <input type="checkbox" name="condition" /> I confirm that this
+            confirmation cannot be confirmed.
+          </div>
+          <div>
+            <input type="checkbox" name="condition" /> I expressly object to
+            this consent.
+          </div>
+        </div>
+        <small id="conditionError" style="color: red"></small>
+
+        <!-- Captcha -->
+        <label style="margin-top: 16px"
+          >Captcha: Type the code exactly as it will NOT be displayed.</label
+        >
+        <div class="row">
+          <div class="col">
+            <div
+              id="captcha"
+              style="
+                font-family: monospace;
+                padding: 8px;
+                background: #f7f3fb;
+                border-radius: 6px;
+                border: 1px solid #eee;
+              "
+            >
+              [generating...]
+            </div>
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              id="captchaInput"
+              placeholder="Leave this blank..."
+            />
+          </div>
+        </div>
+        <div class="muted small" id="status" style="color: orangered">
+          Status: Incomplete
+        </div>
+        <div class="text-grey">
+          The code changes every 2.7 seconds. If you type at that exact moment,
+          it will be incorrect.
+        </div>
+
+        <!-- Meta-Quorom Switch -->
+        <label style="margin-top: 8px">Meta-Quorum-Switch</label>
+        <div class="text-grey">
+          Activate this switch only if you can prove that you have previously
+          printed all form data from this website.
+        </div>
+        <div class="controls">
+          <input
+            type="range"
+            id="metaSwitch"
+            name="metaSwitch"
+            list="metaValues"
+            min="0"
+            max="1"
+            value="0"
+          />
+
+          <datalist id="metaValues">
+            <option value="0" label="Off"></option>
+            <option value="1" label="On"></option>
+          </datalist>
+        </div>
+
+        <!-- Programmatic Hurdle -->
+        <div style="margin-top: 10px">
+          <label>Programming-related hurdle (answer with a number)</label>
+          <input
+            type="text"
+            id="codeChallenge"
+            placeholder="Sum of the first 5 prime numbers"
+          />
+        </div>
+        <small id="codeChallengeError" style="color: red"></small>
+      </fieldset>
+
+      <!-- Signature -->
+      <label> Signature (digital signature not possible): </label><br />
+      <input type="text" disabled placeholder="Please do not sign here" />
+      <small id="essayError" style="color: red">Signature is missing.</small>
+
+      <fieldset>
+        <legend class="uppercase">Attempt to Submit</legend>
+
+        <!-- Submit -->
+        <button
+          type="button"
+          class="submitBtn"
+          id="submitBtn"
+          onclick="submitToDoCS()"
+        >
+          Submit Form
+        </button>
+        <button
+          type="button"
+          class="submitBtn"
+          id="misleadBtn"
+          onclick="consumeThePage()"
+        >
+          Cancel Everything
+        </button>
+        <button
+          type="button"
+          class="submitBtn"
+          id="voidBtn"
+          onclick="submitToVoid()"
+        >
+          Submit to the Void
+        </button>
+      </fieldset>
+    </form>
+  </section>
+
+  <!-- Help Toast -->
+  <div class="sticky-note">
+    <strong>Help (Beta)</strong>
+    <p>If you fill everything out correctly, ... nothing might happen.</p>
+  </div>
+
+  <!-- Form Feedback Modal -->
+  <div id="modalFeedback">
+    <div id="modalFeedbackBox">
+      <span id="corner-tl" class="cornerX top-left">┌</span>
+      <span id="corner-tr" class="cornerX top-right">┐</span>
+      <span id="corner-br" class="cornerX bottom-right">┘</span>
+      <span id="corner-bl" class="cornerX bottom-left">└</span>
+
+      <h2>Form Feedback Wizard</h2>
+      <div id="feedbackProgressContainer">
+        <div id="feedbackProgressBar"></div>
+      </div>
+      <div id="modalFeedbackStep"></div>
+      <div id="modalFeedbackControls"></div>
+    </div>
+  </div>
+
+  <!-- Void-Submit Modal -->
+  <div id="modalVoidBackdrop">
+    <div id="modalVoid">
+      <h2>Confirmation</h2>
+      <p>Do you dare submit to the void?</p>
+      <button id="confirmVoid" class="modal-btn">Yes, embrace it</button>
+      <button id="cancelVoid" class="modal-btn">No, escape</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Shared -->
+  const intervals = [];
+  const form = document.getElementById("general-info-form");
+
+  function showError(id, msg) {
+    document.getElementById(id).textContent = msg;
+  }
+
+  function nthChance(n) {
+    return Math.random() < n;
+  }
+
+  // First Name validation -->
+  const firstName = document.getElementById("firstName");
+  firstName.addEventListener("blur", function () {
+    if (
+      this.value.length < 4 ||
+      this.value.length > 20 ||
+      this.value === "First Name"
+    ) {
+      showError("firstNameError", "First name must be 4–20 characters.");
+    } else {
+      showError("firstNameError", "");
+    }
+  });
+
+  // First Name Vowels validation -->
+  const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+  const firstNameVowels = document.getElementById("firstNameVowels");
+  firstNameVowels.addEventListener("blur", function () {
+    const vowels = document
+      .getElementById("firstName")
+      .value.match(/[aeiou]/gi);
+    const reversed = vowels.reverse().join("");
+
+    if (reversed !== this.value) {
+      showError(
+        "firstNameVowelsError",
+        "Must match reversed vowels from first name."
+      );
+    } else {
+      showError("firstNameVowelsError", "");
+    }
+  });
+
+  firstNameVowels.addEventListener("input", function () {
+    let newValue = "";
+    let lastChar = this.value.slice(-1);
+
+    if (vowels.includes(lastChar)) {
+      const randomVowel = vowels[Math.floor(Math.random() * vowels.length)];
+      switch (lastChar) {
+        case "a":
+          lastChar = "e";
+          break;
+        case "e":
+          lastChar = "a";
+          break;
+        case "i":
+          lastChar = "o";
+          break;
+        case "o":
+          lastChar = "i";
+          break;
+        case "u":
+          lastChar = "U";
+          break;
+        case "A":
+          lastChar = "O";
+          break;
+        case "E":
+          lastChar = "I";
+          break;
+        case "I":
+          lastChar = "E";
+          break;
+        case "O":
+          lastChar = "A";
+          break;
+        case "U":
+          lastChar = "u";
+          break;
+        default:
+          console.log("Vowel Panic!");
+      }
+    }
+
+    this.value = this.value.slice(0, this.value.length - 1) + lastChar;
+  });
+
+  // Middle Name validation -->
+  const middleName = document.getElementById("middleName");
+  middleName.addEventListener("blur", function () {
+    if (this.value.length < 1 || this.value.length > 20) {
+      showError("middleNameError", "Middle name must be 1–20 characters.");
+    } else {
+      showError("middleNameError", "");
+      if (this.value.length === 1) {
+        document.getElementById("middleNameConfirm1").style.display = "inline";
+        showError(
+          "middleNameConfirm1Error",
+          "No middle name must be confirmed."
+        );
+      } else {
+        document.getElementById("middleNameConfirm1").style.display = "none";
+      }
+    }
+  });
+
+  const noMiddleNameConfirm1 = document.getElementById("noMiddleNameConfirm1");
+  noMiddleNameConfirm1.addEventListener("blur", function () {
+    if (this.checked) {
+      showError("middleNameConfirm1Error", "");
+
+      if (
+        document.getElementById("middleNameConfirm2").style.display !== "inline"
+      ) {
+        document.getElementById("middleNameConfirm2").style.display = "inline";
+        showError(
+          "middleNameConfirm2Error",
+          "No middle name funnyness must be confirmed."
+        );
+      }
+
+      if (
+        document.getElementById("middleNameConfirm3").style.display ===
+          "inline" &&
+        nthChance(0.33)
+      ) {
+        document.getElementById("noMiddleNameConfirm3").checked = false;
+      }
+    } else {
+      showError("middleNameConfirm1Error", "No middle name must be confirmed.");
+    }
+  });
+
+  const noMiddleNameConfirm2 = document.getElementById("noMiddleNameConfirm2");
+  noMiddleNameConfirm2.addEventListener("blur", function () {
+    if (this.checked) {
+      showError("middleNameConfirm2Error", "");
+
+      if (
+        document.getElementById("middleNameConfirm3").style.display !== "inline"
+      ) {
+        document.getElementById("middleNameConfirm3").style.display = "inline";
+        showError(
+          "middleNameConfirm3Error",
+          "No middle name sureness must be confirmed."
+        );
+      }
+
+      if (
+        document.getElementById("middleNameConfirm4").style.display ===
+          "inline" &&
+        nthChance(0.33)
+      ) {
+        document.getElementById("noMiddleNameConfirm4").checked = false;
+      }
+    } else {
+      showError(
+        "middleNameConfirm2Error",
+        "No middle name funnyness must be confirmed."
+      );
+    }
+  });
+
+  const noMiddleNameConfirm3 = document.getElementById("noMiddleNameConfirm3");
+  noMiddleNameConfirm3.addEventListener("blur", function () {
+    if (this.checked) {
+      showError("middleNameConfirm3Error", "");
+
+      if (
+        document.getElementById("middleNameConfirm4").style.display !== "inline"
+      ) {
+        document.getElementById("middleNameConfirm4").style.display = "inline";
+        showError(
+          "middleNameConfirm4Error",
+          "No middle name seriousness must be confirmed."
+        );
+      }
+
+      if (nthChance(0.33)) {
+        document.getElementById("noMiddleNameConfirm1").checked = false;
+      }
+
+      if (nthChance(0.33)) {
+        document.getElementById("noMiddleNameConfirm2").checked = false;
+      }
+    } else {
+      showError(
+        "middleNameConfirm3Error",
+        "No middle name sureness must be confirmed."
+      );
+    }
+  });
+
+  const noMiddleNameConfirm4 = document.getElementById("noMiddleNameConfirm4");
+  noMiddleNameConfirm4.addEventListener("blur", function () {
+    if (this.checked) {
+      showError("middleNameConfirm4Error", "");
+      document.getElementById("noMiddleNameConfirm1").checked = false;
+      showError("middleNameConfirm1Error", "No middle name must be confirmed.");
+    } else {
+      showError(
+        "middleNameConfirm4Error",
+        "No middle name seriousness must be confirmed."
+      );
+    }
+  });
+
+  // Last Name validation -->
+  const lastName = document.getElementById("lastName");
+  lastName.addEventListener("blur", function () {
+    if (
+      this.value.length < 4 ||
+      this.value.length > 20 ||
+      this.value === "Last Name"
+    ) {
+      showError("lastNameError", "Last name must be 4–20 characters.");
+    } else {
+      showError("lastNameError", "");
+    }
+  });
+
+  function moveLastName() {
+    // Add wiggle effect
+    lastName.classList.add("wiggle");
+    setTimeout(() => lastName.classList.remove("wiggle"), 400);
+
+    // Randomize escape path more wildly
+    const maxX = window.innerWidth - lastName.offsetWidth;
+    const maxY = window.innerHeight - lastName.offsetHeight;
+
+    // Random offset jumps
+    const newX = Math.floor(Math.random() * maxX);
+    const newY = Math.floor(Math.random() * maxY);
+
+    lastName.style.left = newX + "px";
+    lastName.style.top = newY + "px";
+  }
+
+  // Run away whenever mouse comes near
+  lastName.addEventListener("mouseover", moveLastName);
+
+  // Last Name Leet validation -->
+  function toLeetSpeak(str) {
+    const leetMap = {
+      a: "4",
+      b: "8",
+      c: "(",
+      d: "d", // keep as is
+      e: "3",
+      f: "ph",
+      g: "9",
+      h: "#",
+      i: "1",
+      j: "j", // keep as is
+      k: "k", // keep as is
+      l: "1",
+      m: "m", // keep as is
+      n: "n", // keep as is
+      o: "0",
+      p: "p", // keep as is
+      q: "q", // keep as is
+      r: "r", // keep as is
+      s: "5",
+      t: "7",
+      u: "u", // keep as is
+      v: "v", // keep as is
+      w: "w", // keep as is
+      x: "x", // keep as is
+      y: "y", // keep as is
+      z: "2",
+    };
+
+    return str
+      .toLowerCase()
+      .split("")
+      .map((char) => leetMap[char] || char)
+      .join("");
+  }
+
+  const lastNameLeet = document.getElementById("lastNameLeet");
+  lastNameLeet.addEventListener("blur", function () {
+    if (toLeetSpeak(document.getElementById("lastName").value) !== this.value) {
+      showError(
+        "lastNameLeetError",
+        "Leetspeak last name must match last name"
+      );
+    } else {
+      showError("lastNameLeetError", "");
+    }
+  });
+
+  // Date of Birth Chinese month validation -->
+  const chineseMonths = [
+    "Zhengyue",
+    "Eryue",
+    "Sanyue",
+    "Siyue",
+    "Wuyue",
+    "Liuyue",
+    "Qiyue",
+    "Bayue",
+    "Jiuyue",
+    "Shiyue",
+    "Shiyiyue",
+    "Làyuè",
+  ];
+  document.getElementById("dobMonth").addEventListener("blur", function () {
+    if (!chineseMonths.includes(this.value)) {
+      showError("dobMonthError", "Must be a valid Chinese month name.");
+    } else {
+      showError("dobMonthError", "");
+    }
+  });
+
+  // Date of Birth day actions -->
+  function applyDobFunc(func) {
+    const input = document.getElementById("dobDay");
+    let val = parseInt(input.value, 10);
+
+    switch (func) {
+      case "square":
+        val = val * val;
+        break;
+      case "cube":
+        val = val * val * val;
+        break;
+      case "sqrt":
+        val = Math.floor(Math.sqrt(val));
+        break;
+      case "log2":
+        val = Math.floor(Math.log2(val));
+        break;
+      case "factorial":
+        val = factorial(val);
+        break;
+      case "double":
+        val = val * 2;
+        break;
+      case "halve":
+        val = Math.floor(val / 2);
+        break;
+      case "mod7":
+        val = val % 7;
+        break;
+      case "reverseDigits":
+        val = parseInt(val.toString().split("").reverse().join(""), 10);
+        break;
+      case "randomPrime":
+        const primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31];
+        val = primes[Math.floor(Math.random() * primes.length)];
+        break;
+    }
+
+    input.value = val;
+
+    if (val < 1 || val > 31) {
+      showError("dobDayError", "Day name must be between 1 and 31.");
+    } else {
+      showError("dobDayError", "");
+    }
+  }
+
+  function factorial(n) {
+    if (n < 0) return 1;
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+      result *= i;
+      if (result > 1000000) break; // prevent runaway growth
+    }
+    return result;
+  }
+
+  // Date of Birth Roman year validation -->
+  const romanRegex = /^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/;
+  document.getElementById("dobYearRoman").addEventListener("blur", function () {
+    if (!romanRegex.test(this.value) || !this.value) {
+      showError("dobYearRomanError", "Enter a valid Roman numeral year.");
+    } else {
+      showError("dobYearRomanError", "");
+    }
+  });
+
+  // Date of Birth Arabic year validation -->
+  function romanToArabic(roman) {
+    const values = {
+      I: 1,
+      V: 5,
+      X: 10,
+      L: 50,
+      C: 100,
+      D: 500,
+      M: 1000,
+    };
+
+    let total = 0;
+    let prev = 0;
+
+    // Process from right to left
+    for (let i = roman.length - 1; i >= 0; i--) {
+      const current = values[roman[i].toUpperCase()];
+      if (!current) {
+        throw new Error("Invalid Roman numeral character: " + roman[i]);
+      }
+
+      if (current < prev) {
+        total -= current;
+      } else {
+        total += current;
+      }
+      prev = current;
+    }
+
+    return total;
+  }
+
+  document
+    .getElementById("dobYearArabic")
+    .addEventListener("blur", function () {
+      if (
+        romanToArabic(document.getElementById("dobYearRoman").value) !=
+        this.value
+      ) {
+        showError(
+          "dobYearArabicError",
+          "Arabic numeral year must match roman letters."
+        );
+      } else {
+        showError("dobYearArabicError", "");
+      }
+    });
+
+  // Date of Birth Julian day validation (Normalize any JD/JDN input to an integer civil-day JDN) -->
+  function toCivilJdn(jdOrJdn) {
+    // If it's already an integer, assume it's a JDN
+    if (Number.isInteger(jdOrJdn)) return jdOrJdn;
+    // If it's fractional (JD), shift by +0.5 and floor to align midnight-based civil day
+    return Math.floor(jdOrJdn + 0.5);
+  }
+
+  // Proleptic Gregorian conversion from integer JDN to {year, month, day}
+  function jdnToGregorian(jdn) {
+    const J = Math.floor(jdn);
+    const a = J + 32044;
+    const b = Math.floor((4 * a + 3) / 146097);
+    const c = a - Math.floor((146097 * b) / 4);
+    const d = Math.floor((4 * c + 3) / 1461);
+    const e = c - Math.floor((1461 * d) / 4);
+    const m = Math.floor((5 * e + 2) / 153);
+
+    const day = e - Math.floor((153 * m + 2) / 5) + 1;
+    const month = m + 3 - 12 * Math.floor(m / 10);
+    const year = 100 * b + d - 4800 + Math.floor(m / 10);
+
+    return { year, month, day };
+  }
+
+  // Convenience wrapper: accepts JD or JDN and returns {year, month, day, weekday}
+  function julianToGregorian(jdOrJdn) {
+    const jdn = toCivilJdn(jdOrJdn);
+    const { year, month, day } = jdnToGregorian(jdn);
+    return { year, month, day };
+  }
+
+  function chineseMonthToArabic(monthName) {
+    const mapping = {
+      Zhengyue: 1,
+      Eryue: 2,
+      Sanyue: 3,
+      Siyue: 4,
+      Wuyue: 5,
+      Liuyue: 6,
+      Qiyue: 7,
+      Bayue: 8,
+      Jiuyue: 9,
+      Shiyue: 10,
+      Shiyiyue: 11,
+      Làyuè: 12,
+    };
+
+    return mapping[monthName] || null;
+  }
+
+  document.getElementById("dobConfirm").addEventListener("blur", function () {
+    if (!this.value.match(/^[0-9]+$/)) {
+      showError(
+        "dobConfirmError",
+        "Enter a valid numeric day per Julian Day Number."
+      );
+    }
+
+    let gregCal = julianToGregorian(Number(this.value));
+
+    if (
+      gregCal.year != document.getElementById("dobYearArabic").value ||
+      gregCal.month !=
+        chineseMonthToArabic(document.getElementById("dobMonth").value) ||
+      gregCal.day != document.getElementById("dobDay").value
+    ) {
+      console.log(
+        "As of our calculations the JDN->Greg conversion for your date of birth results in:"
+      );
+      console.log(gregCal);
+      showError(
+        "dobConfirmError",
+        "Julian day date must match the other date of birth values."
+      );
+    } else {
+      showError("dobConfirmError", "");
+    }
+  });
+
+  // City construction -->
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  const chars =
+    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ".split("");
+  const cityHell = document.getElementById("cityHell");
+
+  // Add select element
+  function addCitySelect() {
+    const select = document.createElement("select");
+    const shuffled = shuffle([...chars]);
+    shuffled.forEach((ch) => {
+      const option = document.createElement("option");
+      option.value = ch;
+      option.textContent = ch;
+      select.appendChild(option);
+    });
+    cityHell.appendChild(select);
+  }
+
+  function delCitySelect() {
+    let lastChild = cityHell.lastChild;
+    if (!lastChild) return;
+
+    cityHell.lastChild.remove();
+  }
+
+  for (let i = 0; i < 5; i++) {
+    addCitySelect();
+  }
+
+  // Email validation -->
+  document.getElementById("email").addEventListener("blur", function () {
+    if (!this.value.match(/^[^@]+@[^@\.]+$/)) {
+      showError("emailError", "Enter a valid email address without tld.");
+    } else {
+      showError("emailError", "");
+    }
+  });
+
+  // Department validation -->
+  document.getElementById("dept").addEventListener("blur", function () {
+    if (this.value === "correct") {
+      showError("deptError", "Must select an incorrect value.");
+    } else {
+      showError("deptError", "");
+    }
+  });
+
+  // Purpose validation -->
+  const purposeChecks = document.querySelectorAll('input[name="purpose"]');
+
+  function handlePurposeChange(event) {
+    const checkCount = document.querySelectorAll(
+      'input[name="purpose"]:checked'
+    ).length;
+
+    switch (true) {
+      case checkCount == 1:
+        showError("purposeError", "Must select at least three options.");
+        break;
+      case checkCount == 3:
+        showError("purposeError", "Must tick exactly one option.");
+        break;
+      default:
+        showError(
+          "purposeError",
+          "Must tick exactly one option, but select at least three."
+        );
+        break;
+    }
+  }
+
+  purposeChecks.forEach((cb) => {
+    cb.addEventListener("change", handlePurposeChange);
+  });
+
+  // Condition validation -->
+  const conditionChecks = document.querySelectorAll('input[name="condition"]');
+
+  function handleConditionChange(event) {
+    showError(
+      "conditionError",
+      "Must check that you have read and completely not understand."
+    );
+  }
+
+  conditionChecks.forEach((cb) => {
+    cb.addEventListener("change", handleConditionChange);
+  });
+
+  // Explanation validation -->
+  function countWords(str) {
+    return str.trim().split(/\s+/).length;
+  }
+
+  const explanation = document.getElementById("explanation");
+  explanation.addEventListener("blur", function () {
+    if (this.value.length > 12) {
+      showError("explanationError", "Explanation must be max 12 characters.");
+    } else if (countWords(this.value) < 400) {
+      showError("explanationError", "Explanation must be at least 400 words.");
+    } else {
+      showError("explanationError", "");
+    }
+  });
+
+  // Phase constant value validation -->
+  const phaseValue = document.querySelector("#phaseValue");
+  const phaseRange = document.querySelector("#phaseRange");
+  phaseValue.textContent = phaseRange.value;
+  phaseRange.addEventListener("input", (event) => {
+    phaseValue.textContent = event.target.value;
+    if (this.value != 17) {
+      showError("phaseRangeError", "Incorrect phase constant value.");
+    } else {
+      showError("phaseRangeError", "");
+    }
+  });
+
+  // Explain find cryptography -->
+  function techyEncrypt(input) {
+    // Pool of techy/glitchy symbols
+    const symbols = [
+      "!",
+      "@",
+      "#",
+      "$",
+      "%",
+      "^",
+      "&",
+      "*",
+      "(",
+      ")",
+      "-",
+      "_",
+      "=",
+      "+",
+      "[",
+      "]",
+      "{",
+      "}",
+      "<",
+      ">",
+      "/",
+      "\\",
+      "|",
+      "~",
+      "`",
+      ":",
+      ";",
+      '"',
+      "'",
+      "§",
+      "±",
+      "µ",
+      "¤",
+      "©",
+      "®",
+      "™",
+      "Ω",
+      "∆",
+      "≈",
+      "≠",
+      "√",
+      "∑",
+      "π",
+      "λ",
+      "Ж",
+      "Я",
+      "Ф",
+      "Ψ",
+      "Ξ",
+      "Ø",
+      "Æ",
+      "ß",
+      "Ü",
+      "Ö",
+      "ç",
+      "ñ",
+      "é",
+      "ê",
+      "á",
+      "د",
+      "ش",
+      "ط",
+      "ظ",
+      "ژ",
+      "چ",
+      "پ",
+      "گ",
+      "ی",
+      "ے",
+      "٩",
+      "٧",
+      "٥",
+      "٣",
+      "١",
+      "※",
+      "✦",
+      "✧",
+    ];
+
+    let result = "";
+    for (let ch of input) {
+      // Replace each character with a random techy symbol
+      const rand = Math.floor(Math.random() * symbols.length);
+      result += symbols[rand];
+    }
+    return result;
+  }
+
+  const explainFind = document.getElementById("explainFind");
+  explainFind.addEventListener("blur", function () {
+    if (this.value.includes(".")) {
+      this.value = techyEncrypt(this.value);
+    }
+  });
+
+  // Essay word count validation -->
+  function updateCounter() {
+    const text = document.getElementById("essayText").value.trim();
+    const words = text.length > 0 ? text.split(/\s+/).length : 0;
+    const offset = Math.floor(Math.random() * 11) - 5;
+    const displayedCount = Math.max(0, words + offset); // avoid negative
+    document.getElementById("essayCounter").textContent =
+      "Words: " + displayedCount;
+  }
+
+  document.getElementById("essayText").addEventListener("input", (e) => {
+    if (e.target.value.endsWith(" ")) {
+      updateCounter();
+    }
+  });
+
+  document.getElementById("essayText").addEventListener("blur", function () {
+    const words = this.value.length > 0 ? this.value.split(/\s+/).length : 0;
+
+    if (words.length !== 47) {
+      showError("essayError", "Essay must be exactly 47 words.");
+    } else {
+      showError("essayError", "");
+    }
+  });
+
+  // Captcha validation -->
+  let captchaSeed = 0;
+  function genCaptcha() {
+    const epoch = Date.now();
+    captchaSeed = Math.floor((epoch / (Math.random() * 2700)) % 1000000);
+    // display deceptive code with brackets/spaces
+    captcha.textContent =
+      "[ " + ("00000" + (captchaSeed % 99999)).slice(-5) + " ]";
+  }
+  intervals.push(setInterval(genCaptcha, 2700));
+  genCaptcha();
+
+  // captcha stealth: if user types anything, we replace with the current code and still fail
+  const captchaInput = document.getElementById("captchaInput");
+  const status = document.getElementById("status");
+  captchaInput.addEventListener("input", () => {
+    captchaInput.value = "";
+    // brief fake message
+    status.textContent = "Status: Captcha ungültig (try not to type)";
+    setTimeout(() => (status.textContent = "Status: Unvollständig"), 1200);
+  });
+
+  // Code challenge validation -->
+  document
+    .getElementById("codeChallenge")
+    .addEventListener("blur", function () {
+      if (this.value != 28) {
+        showError(
+          "codeChallengeError",
+          "Code challenge value must be equal to the sum of the first five prime digits."
+        );
+      } else {
+        showError("codeChallengeError", "");
+      }
+    });
+
+  // Random modal hints -->
+  intervals.push(
+    setInterval(() => {
+      const hints = [
+        "Tip: 17 is a symbolically powerful number.",
+        "Reminder: Your Last Name (Leetspeak) should not contain emotional attachments.",
+        "Tip: You may already have everything you need. Or nothing.",
+        "Warning: The Chinese Calendar does not recognize your urgency.",
+        "Note: Your Julian Day Number may vary depending on planetary mood.",
+        "If the form seems too easy: read it again.",
+        "Tip: The .doctxt format is incompatible with everything, including itself.",
+        "Did you know? A missing philosopher reference automatically defaults to Kant.",
+        "Caution: The CAPTCHA changes faster if you look directly at it.",
+        "System Notice: The digital signature field is disabled for your safety.",
+        "Hint: The Meta-Quorum Switch must remain untouched until instructed. No instruction will follow.",
+        "Reminder: Leetspeak names containing actual vowels are subject to review.",
+        "Fun Fact: Your Date of Birth (Chinese) might be reassigned without prior warning.",
+        "Note: Uploading a .doctxt image triggers a philosophical audit.",
+        "Tip: Referencing living philosophers invalidates your entire form.",
+        "Alert: Your Julian Day Number seems overly confident.",
+        "Trivia: The Meta-Quorum Switch predates recorded bureaucracy.",
+        "Hint: If the CAPTCHA blinks twice, blink once back. It helps.",
+        "Info: Last Names written in lowercase leetspeak aren’t rebellious—just suspicious.",
+        "Warning: Images larger than 12 KB may awaken dormant metadata.",
+        "Note: Your dead philosophers must be academically verifiable dead.",
+        "Tip: If the form feels hostile, that’s normal.",
+        "Reminder: Chinese birth years do not accept approximations beginning with “I think”.",
+        "Caution: The digital signature field may enable itself when you least expect it.",
+        "Hint: Touching the Meta-Quorum Switch voids your metaphysical warranty.",
+        "Did you know? The CAPTCHA is more afraid of you than you are of it. Probably.",
+        "System: Misaligned Leetspeak triggers spectro-linguistic review cycles.",
+        "Tip: .doctxt images cannot be previewed due to existential reasons.",
+        "Notice: Your references will be randomly reordered for narrative effect.",
+        "Warning: Incorrect Julian Day values may summon a historian.",
+        "Trivia: The Meta-Quorum Switch has no function. That is its function.",
+        "Reminder: Chinese zodiac animals are not responsible for administrative consequences.",
+        "Info: The form is best completed without expectations of completion.",
+        "Tip: Clicking the logo three times will do nothing.",
+        "Tip: Some requirements resolve themselves after 45 seconds.",
+      ];
+      const i = Math.floor(Math.random() * hints.length);
+      document.querySelector(".sticky-note").innerHTML =
+        '<strong>Help (Beta)</strong><div style="margin-top:8px"><small>' +
+        hints[i] +
+        "</small></div>";
+    }, 9000)
+  );
+
+  // Submit buttons status -->
+  function randomValidationTick() {
+    if (nthChance(0.1)) {
+      document
+        .querySelectorAll(".submitBtn")
+        .forEach((b) => (b.disabled = false));
+    } else {
+      document
+        .querySelectorAll(".submitBtn")
+        .forEach((b) => (b.disabled = true));
+    }
+  }
+  intervals.push(setInterval(randomValidationTick, 1000));
+
+  // Form Feedback Modal -->
+  let step = 0;
+  const messages = [
+    "To what extent has the present form destabilized your personal understanding of transsituational context shifts within administrative meta-processes?",
+    "Which latent metaphysical residue best describes your most recent attempt at administrative self-completion?",
+    "When confronted with an improperly contextualized object, which interpretative stance would you fail to maintain?",
+    "In accordance with Sub-Protocol 7B of the Contextual Order: What form of existential drift typically accompanies your form-filling behavior?",
+    "During routine exposure to low-grade bureaucratic turbulence, which cognitive artifact spontaneously materializes in your conscious anteroom?",
+  ];
+
+  function randomMessage() {
+    return messages[Math.floor(Math.random() * messages.length)];
+  }
+
+  function showStep() {
+    document.getElementById("modalFeedbackStep").innerText = randomMessage();
+    const controls = document.getElementById("modalFeedbackControls");
+
+    // Update fake progress bar
+    const progress = ((step + 1) / 5) * 100;
+    document.getElementById("feedbackProgressBar").style.width = progress + "%";
+
+    if (document.querySelectorAll(".absurd-btn").length > 0) return;
+
+    const absurdLabels = [
+      "I experienced a gentle but persistent erosion of context.",
+      "I became completely lost in a meta-formal parable.",
+      "My understanding of context was updated, but not approved.",
+      "I need an EU directive before I can answer that.",
+      "Context? I thought that was optional.",
+      "My inner auditor refuses to acknowledge this.",
+      "The context logged itself out.",
+      "I received an unexpected context refund.",
+      "I've been stuck in the waiting room of meaning for 14 minutes.",
+      "My cognitive process is stuck at 17%.",
+      "The context shift was successfully installed (restart required).",
+      "I'm experiencing critical semantic overheating.",
+      "I accidentally uninstalled the context.",
+      "I've been assigned a temporary replacement context.",
+      "I'm satisfied, but not within the rules.",
+      "I submitted my understanding for review (processing time: 6–8 decades).",
+      "I need a second form to confirm this context.",
+      "I was logged out for security reasons.",
+      "The context shift called my mother.",
+      "I feel like a semantic e-scooter in a moat.",
+      "I accept the shift—against my better judgment.",
+    ];
+
+    absurdLabels.forEach((label) => {
+      const btn = document.createElement("button");
+      btn.className = "absurd-btn";
+      btn.innerText = label;
+      btn.onclick = () => {
+        disableAllAbsurdButtons();
+        slowFillProgress(() => {
+          // Re-enable buttons after progress completes
+          enableAllAbsurdButtons();
+          disableNAbsurdButtons();
+        });
+
+        if (step > 5) hideFormFeedbackModal();
+        else showStep();
+      };
+      controls.appendChild(btn);
+      disableNAbsurdButtons();
+    });
+  }
+
+  function enableAllAbsurdButtons() {
+    document
+      .querySelectorAll(".absurd-btn")
+      .forEach((b) => (b.disabled = false));
+  }
+
+  function disableAllAbsurdButtons() {
+    document
+      .querySelectorAll(".absurd-btn")
+      .forEach((b) => (b.disabled = true));
+  }
+
+  function disableNAbsurdButtons() {
+    document.querySelectorAll(".absurd-btn").forEach((b) => {
+      if (nthChance(0.8)) {
+        b.disabled = true;
+      } else {
+        b.disabled = false;
+      }
+    });
+  }
+
+  function slowFillProgress(onComplete) {
+    const bar = document.getElementById("feedbackProgressBar");
+    bar.style.width = "0%";
+    let progress = 0;
+    let rng = Math.floor(Math.random() * 100);
+    const interval = intervals.push(
+      setInterval(() => {
+        progress += 2; // slow increments
+        bar.style.width = progress + "%";
+        if (progress >= rng) {
+          clearInterval(interval);
+          if (onComplete) onComplete();
+        }
+      }, 200)
+    ); // every 200ms → ~10s total
+  }
+
+  function showFormFeedbackModal() {
+    document.getElementById("modalFeedback").style.display = "block";
+    step = 0;
+    showStep();
+  }
+
+  function hideFormFeedbackModal() {
+    document.getElementById("modalFeedback").style.display = "none";
+  }
+
+  // Corner X logic
+  const corners = [".bottom-left", ".top-left", ".top-right", ".bottom-right"];
+  let hideCorner = corners[Math.floor(Math.random() * corners.length)];
+  document.querySelector(hideCorner).onclick = hideFormFeedbackModal;
+  for (let i = 0; i < corners.length; i++) {
+    if (corners[i] === hideCorner) {
+      document.querySelector(corners[i]).innerHTML =
+        "&#x1D465" + document.querySelector(corners[i]).innerHTML;
+    } else {
+      document.querySelector(corners[i]).onclick = () => {
+        step = 0;
+        document.getElementById("feedbackProgressBar").style.width = "0%";
+        showStep();
+      };
+    }
+  }
+
+  // Trigger after 3 minutes
+  setTimeout(showFormFeedbackModal, 3 * 60 * 1000);
+
+  // Submit Button -->
+  function submitToDoCS() {
+    cancelIntervals();
+
+    document.getElementById("misleadBtn").disabled = true;
+    document.getElementById("voidBtn").disabled = true;
+
+    const btn = event.target;
+    btn.disabled = true;
+    btn.innerText = "Initiating Meta-Quorum...";
+
+    // start fake escalating validation
+    let step = 0;
+    const steps = [
+      "Verifying Leetspeak Surname Integrity...",
+      "Cross-checking Lunar Birthdate with Julian Offset...",
+      "Decoding .doctxt Files...",
+      "Consulting the Council of Mostly Retired Fellows...",
+      "Awaiting Oracle Timeout...",
+      "Synchronizing Context Layers...",
+      "Unexpected Error: Validation Passed.",
+    ];
+
+    const interval = setInterval(() => {
+      if (step < steps.length) {
+        btn.innerText = steps[step];
+        step++;
+      } else {
+        clearInterval(interval);
+        document.getElementById("form-from-hell").innerHTML =
+          "<h1 style='text-align:center;margin-top:20vh;font-family:serif;'>Your submission has been contextually accepted.<br><br><small>Probably.</small></h1>";
+      }
+    }, 2300);
+  }
+
+  // Cancel Everything Button -->
+  function consumeThePage() {
+    cancelIntervals();
+    const eater = document.createElement("div");
+    eater.id = "voidEater";
+    document.body.appendChild(eater);
+
+    eater.style.position = "fixed";
+    eater.style.top = 0;
+    eater.style.left = 0;
+    eater.style.width = "0vw";
+    eater.style.height = "0vh";
+    eater.style.background =
+      "radial-gradient(circle, #000 0%, #111 40%, #000 100%)";
+    eater.style.borderRadius = "50%";
+    eater.style.zIndex = 999999;
+    eater.style.transition = "all 6s ease-in";
+
+    // Trigger expansion
+    setTimeout(() => {
+      eater.style.width = "300vw";
+      eater.style.height = "300vh";
+      eater.style.left = "-100vw";
+      eater.style.top = "-100vh";
+    }, 100);
+
+    // Remove all content as if it was devoured
+    setTimeout(() => {
+      document.body.innerHTML = `
+      <h1 style="color:white;text-align:center;margin-top:20vh;font-family:serif;">
+        The Department acknowledges the cancellation.<br>
+        Reality has been revised accordingly.
+      </h1>`;
+    }, 6200);
+  }
+
+  let tiltAngle = 0;
+  let tiltInterval;
+
+  // Submit to the Void Button -->
+  function submitToVoid() {
+    document.getElementById("modalVoidBackdrop").style.display = "block";
+  }
+
+  document.getElementById("confirmVoid").onclick = function () {
+    cancelIntervals();
+    document.getElementById("modalVoidBackdrop").style.display = "none";
+    // Start tilting the page
+    if (!tiltInterval) {
+      tiltInterval = setInterval(() => {
+        tiltAngle += 0.1;
+        document.body.style.transform = `rotate(${tiltAngle}deg)`;
+      }, 2000); // every 2 seconds
+    }
+  };
+
+  document.getElementById("cancelVoid").onclick = function () {
+    document.getElementById("modalVoidBackdrop").style.display = "none";
+  };
+
+  // Shared -->
+
+  function cancelIntervals() {
+    intervals.forEach((id) => clearInterval(id));
+  }
+</script>
+
+<style>
+  body {
+    transition: transform 2s ease;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .text-grey {
+    color: grey;
+  }
+
+  .uppercase {
+    padding-top: 16px !important;
+    text-transform: uppercase;
+    font-size: smaller;
+  }
+
+  .square-list {
+    list-style-type: square !important;
+    padding-left: 24px !important;
+  }
+  .square-list > li {
+    font-size: 20px !important;
+  }
+
+  .no-li-icon-list {
+    padding-left: 4px;
+    margin: 0;
+  }
+  .no-li-icon-list > li {
+    margin: 0;
+  }
+
+  .sticky-note {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    background: #fff7;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    width: 260px;
+  }
+
+  #lastName {
+    width: calc(100% - 35px);
+    position: absolute;
+    transition: left 0.3s ease, top 0.3s ease;
+  }
+
+  #metaValues {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    width: 100%;
+  }
+
+  #modalVoidBackdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+  }
+
+  #modalVoid {
+    background: #111;
+    color: #eee;
+    width: 300px;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid #00d4aa;
+    box-shadow: 0 0 20px #00d4aa, 0 0 40px #009678;
+    text-align: center;
+    font-family: "Courier New", monospace;
+    animation: flicker 1.5s infinite alternate;
+  }
+
+  @keyframes flicker {
+    from {
+      opacity: 0.8;
+      text-shadow: 0 0 5px red;
+    }
+    to {
+      opacity: 1;
+      text-shadow: 0 0 15px purple;
+    }
+  }
+
+  .modal-btn {
+    margin: 10px;
+    padding: 6px 12px;
+    background: black;
+    color: 00d4aa;
+    border: 1px solid 00d4aa;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .modal-btn:hover {
+    background: 00d4aa;
+    color: #009678;
+  }
+
+  @keyframes wiggle {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  .wiggle {
+    animation: wiggle 0.4s ease;
+  }
+
+  #modalFeedback {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+
+  #modalFeedbackControls {
+    overflow-y: scroll;
+    height: 250px;
+  }
+
+  #modalFeedbackBox {
+    background: #fff;
+    width: 420px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 3px solid #444;
+    position: relative;
+  }
+
+  .cornerX {
+    position: absolute;
+    cursor: text;
+    color: gray;
+  }
+  .top-left {
+    top: 5px;
+    left: 5px;
+  }
+  .top-right {
+    top: 5px;
+    right: 5px;
+  }
+  .bottom-right {
+    bottom: 5px;
+    right: 5px;
+  }
+  .bottom-left {
+    bottom: 5px;
+    left: 5px;
+  }
+
+  .absurd-btn {
+    width: 350px;
+    display: inline-block;
+    margin: 4px;
+    padding: 6px 10px;
+    border: 2px solid;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  #feedbackProgressContainer {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    margin: 10px 0;
+    border: 2px solid #999;
+    position: relative;
+  }
+  #feedbackProgressBar {
+    width: 0%;
+    height: 100%;
+    background: limegreen;
+    transition: width 0.5s ease;
+  }
+</style>

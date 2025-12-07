@@ -5,6 +5,8 @@ en:
     url: /en/org-chart/
   - title: "PUBLICATIONS"
     url: /en/publications/
+  - title: "FORM A-7/14b"
+    url: /en/form-a-7-14-b/
 
 de:
   - title: "ÜBER UNS"
@@ -13,3 +15,5 @@ de:
     url: /de/organigramm/
   - title: "PUBLIKATIONEN"
     url: /de/publikationen/
+  - title: "FORM A-7/14b"
+    url: /de/form-a-7-14-b/
