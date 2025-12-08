@@ -776,7 +776,7 @@ permalink: /en/form-a-7-14-b/
       <!-- Section C -->
       <h3>Section C: Confirmations and self-commitments</h3>
 
-      <p class="text-justify">
+      <p class="text-justify" style="margin-bottom: 0">
         Upon reaching this final stage, you will be invited to solemnly affirm
         your willingness to comply with departmental expectations, including but
         not limited to:
@@ -1602,7 +1602,7 @@ permalink: /en/form-a-7-14-b/
   phaseValue.textContent = phaseRange.value;
   phaseRange.addEventListener("input", (event) => {
     phaseValue.textContent = event.target.value;
-    if (this.value != 17) {
+    if (phaseValue.textContent != 17) {
       showError("phaseRangeError", "Incorrect phase constant value.");
     } else {
       showError("phaseRangeError", "");
