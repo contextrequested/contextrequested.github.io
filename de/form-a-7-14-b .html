@@ -17,7 +17,7 @@ permalink: /de/form-a-7-14-b/
       kontextuell relevanten Phänomenen. Vor Ihnen liegt Formular A-7/14b, das
       offiziell inoffizielle Meldeverfahren des Ministeriums für Artefakte,
       Anomalien und alltägliche Ereignisse, deren Bedeutung – derzeit – von
-      Ihnen unbestätigt, unglaublich oder lediglich vermutet wird.
+      Ihnen unbestätigt, nicht beglaubigt oder lediglich vermutet wird.
     </p>
 
     <p class="text-justify">
@@ -667,7 +667,7 @@ permalink: /de/form-a-7-14-b/
           >Grund für Ihre Fehlauswahl (wählen Sie einen nicht verwandten Grund
           aus):</label
         >
-        <select>
+        <select id="reasonMisselect" style="width: 100%">
           <option>Ich habe mich verklickt</option>
           <option>
             Ich verweigere die Antwort aus metaphysischen Gründen.
@@ -2049,7 +2049,7 @@ permalink: /de/form-a-7-14-b/
       } else {
         clearInterval(interval);
         document.getElementById("form-from-hell").innerHTML =
-          "<h1 style='text-align:center;margin-top:20vh;font-family:serif;'>Ihr Beitrag wurde kontextbezogen akzeptiert.<br><br><small>Möglicherweise.</small></h1>";
+          "<h1 style='text-align:center;margin-top:20vh;font-family:sans-serif;'>Ihr Beitrag wurde kontextbezogen akzeptiert.<br><br><small>Möglicherweise.</small></h1>";
       }
     }, 2300);
   }
@@ -2083,7 +2083,7 @@ permalink: /de/form-a-7-14-b/
     // Remove all content as if it was devoured
     setTimeout(() => {
       document.body.innerHTML = `
-      <h1 style="color:white;text-align:center;margin-top:20vh;font-family:serif;">
+      <h1 style="text-align:center;margin-top:20vh;font-family:sans-serif;">
         Das Department bestätigt die Stornierung.<br>
         Die Realität wurde entsprechend angepasst.
       </h1>`;
