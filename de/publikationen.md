@@ -26,9 +26,9 @@ permalink: /de/publikationen/
 
 ## Konferenzbeiträge (teilweise kontrovers)
 
-- Pending, E. (2024) *Tabs We Never Close: A Contribution to Digital Melancholy*, Vortrag auf der Konferenz Materialities & Meaning, Wien, Österreich, 14.–16. Juni, S. 101–110.
+- Pending, E. (2024) *Tabs, die wir nie schließen: Ein Beitrag zur digitalen Melancholie*, Vortrag auf der Konferenz Materialities & Meaning, Wien, Österreich, 14.–16. Juni, S. 101–110.
 - Pending, E. (2023) *Der rebellische Büroklammerkomplex: Eine psychoanalytische Perspektive*, in: Tagungsband der Konferenz über Alltagsgegenstände, Universität Groningen, S. 12–19. [Unterbrochen aufgrund eines Stromausfalls]
 - Piastowski, T. (2022) *Vom Streitwagen zur App: Die Ritualisierung des Transports*, Vortrag gehalten auf der Konferenz Städte & Mythologien, Universität Warschau, S. 88–96.
 - Grunwald, H.K. (2021) *Die Triangulation des Snackautomaten, des Büroflurs und der existenziellen Hoffnung*, in: Proceedings of the International Symposium on Media-Archaeology, Krakau, S. 58–66. [Laut Protokoll: „gut besucht, aber verwirrend“]
-- Merkel, S. (2017) *Listening to the Inbox: Field Recording as Method*, in Proceedings of the Sound Studies Symposium, Freiburg, S. 140–150.
+- Merkel, S. (2017) *Dem Posteingang lauschen: Feldaufnahmen als Methode*, in: Verfahren der Klangstudien Symposium, Freiburg, S. 140–150.
 - Voss, A. and Grunwald, H.K. (2016) *Kontrollbücher und Rituale: Dokumentationspraktiken in kleinen Unternehmen*, Vortrag auf der Konferenz Governance & Alltag, Humboldt-Universität zu Berlin, S. 31–39.
