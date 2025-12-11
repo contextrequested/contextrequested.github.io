@@ -133,7 +133,7 @@ author:
       # url: "https://github.com/"
     - label: "eliaspending"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/eliaspending/"
+      # url: "https://www.instagram.com/eliaspending/"
     - label: "eliaspending"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/eliaspending"
